@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  align-items: center; /* Centraliza os itens verticalmente */
+  justify-content: center;
+  padding: 40px 20px; /* Espaçamento interno */
+  background-color: #ffc8c8; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  position: fixed; /* Fixa a Navbar no topo */
+  top: 0; /* Posiciona no topo */
+  left: 0; /* Alinha à esquerda */
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+}
+
+.nav-links {
+  display: flex;
+  margin:auto;
+  gap: 40px;
+  
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  transition: color 0.3s ease;
+  
+}
+
+.nav-links a:hover {
+  color: #61dafb;
+}
